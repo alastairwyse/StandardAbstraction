@@ -15,7 +15,7 @@ The project is a .NET Standard-compatible version of [FrameworkAbstraction](http
   <tr>
     <td valign="top">1.0.0</td>
     <td>
-      Initial version forked/migrated from [FrameworkAbstraction](https://github.com/alastairwyse/FrameworkAbstraction).
+      Initial version forked/migrated from <a href="https://github.com/alastairwyse/FrameworkAbstraction">FrameworkAbstraction</a>.
     </td>
   </tr>
 </table>
