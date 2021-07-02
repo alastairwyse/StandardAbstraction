@@ -14,7 +14,14 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Development\C#\StandardAbstraction\StandardAbstraction\StandardAbstraction.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\StandardAbstraction.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\StandardAbstraction.xml</DocumentationFile>
+    <WarningLevel>5</WarningLevel>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
 </Project>
