@@ -265,5 +265,40 @@
         <param name="count">The maximum number of bytes to read.</param>
         <returns>The total number of bytes read into the buffer. This might be less than the number of bytes requested if that number of bytes are not currently available, or zero if the end of the stream is reached.</returns>
       </member>
+      <member name="T:StandardAbstraction.IStopwatch">
+        <summary>
+          Provides an abstraction of the System.Diagnostics.Stopwatch class, to facilitate mocking and unit testing.
+        </summary>
+      </member>
+      <member name="P:StandardAbstraction.IStopwatch.Elapsed">
+        <summary>
+          Gets the total elapsed time measured by the current instance.
+        </summary>
+      </member>
+      <member name="P:StandardAbstraction.IStopwatch.ElapsedMilliseconds">
+        <summary>
+          Gets the total elapsed time measured by the current instance, in milliseconds.
+        </summary>
+      </member>
+      <member name="P:StandardAbstraction.IStopwatch.ElapsedTicks">
+        <summary>
+          Gets the total elapsed time measured by the current instance, in timer ticks.
+        </summary>
+      </member>
+      <member name="M:StandardAbstraction.IStopwatch.Start">
+        <summary>
+          Starts, or resumes, measuring elapsed time for an interval.
+        </summary>
+      </member>
+      <member name="M:StandardAbstraction.IStopwatch.Stop">
+        <summary>
+          Stops measuring elapsed time for an interval.
+        </summary>
+      </member>
+      <member name="M:StandardAbstraction.IStopwatch.Reset">
+        <summary>
+          Stops time interval measurement and resets the elapsed time to zero.
+        </summary>
+      </member>
     </members>
   </doc>

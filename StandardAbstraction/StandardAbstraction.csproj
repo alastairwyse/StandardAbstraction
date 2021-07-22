@@ -8,9 +8,13 @@
     <PackageProjectUrl>https://github.com/alastairwyse/StandardAbstraction/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alastairwyse/StandardAbstraction/</RepositoryUrl>
     <PackageTags>framework standard abstraction interface operating system os mock mocking unit test tests</PackageTags>
-    <PackageReleaseNotes>First version.  Migrated from FrameworkAbstraction project.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added abstraction for System.Diagnostics.Stopwatch</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

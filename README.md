@@ -13,9 +13,15 @@ The project is a .NET Standard-compatible version of [FrameworkAbstraction](http
     <td><b>Changes</b></td>
   </tr>
   <tr>
+    <td valign="top">1.1.0</td>
+    <td>
+      Added abstraction for System.Diagnostics.Stopwatch
+    </td>
+  </tr>
+  <tr>
     <td valign="top">1.0.0</td>
     <td>
-      Initial version forked/migrated from <a href="https://github.com/alastairwyse/FrameworkAbstraction">FrameworkAbstraction</a>.
+      Initial version forked/migrated from <a href="https://github.com/alastairwyse/FrameworkAbstraction">FrameworkAbstraction</a>
     </td>
   </tr>
 </table>
