@@ -270,6 +270,11 @@
           Provides an abstraction of the System.Diagnostics.Stopwatch class, to facilitate mocking and unit testing.
         </summary>
       </member>
+      <member name="P:StandardAbstraction.IStopwatch.Frequency">
+        <summary>
+          Gets the frequency of the timer as the number of ticks per second.
+        </summary>
+      </member>
       <member name="P:StandardAbstraction.IStopwatch.Elapsed">
         <summary>
           Gets the total elapsed time measured by the current instance.

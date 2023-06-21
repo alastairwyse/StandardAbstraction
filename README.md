@@ -13,6 +13,12 @@ The project is a .NET Standard-compatible version of [FrameworkAbstraction](http
     <td><b>Changes</b></td>
   </tr>
   <tr>
+    <td valign="top">1.2.0</td>
+    <td>
+      Added System.Diagnostics.Stopwatch.Frequency property
+    </td>
+  </tr>
+  <tr>
     <td valign="top">1.1.0</td>
     <td>
       Added abstraction for System.Diagnostics.Stopwatch
